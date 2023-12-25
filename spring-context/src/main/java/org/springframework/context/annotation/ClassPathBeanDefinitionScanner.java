@@ -154,6 +154,7 @@ public class ClassPathBeanDefinitionScanner extends ClassPathScanningCandidateCo
 	 * @param environment the Spring {@link Environment} to use when evaluating bean
 	 * definition profile metadata
 	 * @param resourceLoader the {@link ResourceLoader} to use
+	 *   添加了注解类型为Component的过滤器
 	 * @since 4.3.6
 	 */
 	public ClassPathBeanDefinitionScanner(BeanDefinitionRegistry registry, boolean useDefaultFilters,

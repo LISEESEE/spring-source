@@ -132,6 +132,7 @@ public abstract class AnnotationConfigUtils {
 	/**
 	 * Register all relevant annotation post processors in the given registry.
 	 * @param registry the registry to operate on
+	 * 注册五种注解配置处理器 ，添加到BeanDefinitionHolder
 	 */
 	public static void registerAnnotationConfigProcessors(BeanDefinitionRegistry registry) {
 		registerAnnotationConfigProcessors(registry, null);
